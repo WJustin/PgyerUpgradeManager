@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'PgyerUpgradeManager_Example' do
+  pod 'PgyerUpgradeManager', :path => '../'
+
+  target 'PgyerUpgradeManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end

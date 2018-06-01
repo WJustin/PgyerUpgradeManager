@@ -1,0 +1,6 @@
+framework module PgyerUpgradeManager {
+  umbrella header "PgyerUpgradeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
