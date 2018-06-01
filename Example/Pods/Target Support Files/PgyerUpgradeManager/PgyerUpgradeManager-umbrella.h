@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JWPgyerUpgradeManager.h"
 
 FOUNDATION_EXPORT double PgyerUpgradeManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char PgyerUpgradeManagerVersionString[];

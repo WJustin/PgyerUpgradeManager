@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B8C6E6203F5868A14C4A3354924F889"
+               BlueprintIdentifier = "EB6CB45B167F868932BDDFF44E1A7732"
                BuildableName = "Pods_PgyerUpgradeManager_Example.framework"
                BlueprintName = "Pods-PgyerUpgradeManager_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B8C6E6203F5868A14C4A3354924F889"
+            BlueprintIdentifier = "EB6CB45B167F868932BDDFF44E1A7732"
             BuildableName = "Pods_PgyerUpgradeManager_Example.framework"
             BlueprintName = "Pods-PgyerUpgradeManager_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,14 +1,24 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
   - Kiwi (3.0.0)
-  - PgyerUpgradeManager (0.1.0)
+  - PgyerUpgradeManager (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - Kiwi
   - PgyerUpgradeManager (from `../`)
 
@@ -17,10 +27,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
-  PgyerUpgradeManager: dd025665cb50cf8e6dd9cf6036599e89b239299a
+  PgyerUpgradeManager: 43ec9c88e7652e637b76c46e5de1eee964f72536
 
-PODFILE CHECKSUM: e7d83aa9d8273c07629d86e3380e9627728fd04e
+PODFILE CHECKSUM: d630e34cc7c849d22ffab2eee6aaa56ccfec849d
 
 COCOAPODS: 1.4.0

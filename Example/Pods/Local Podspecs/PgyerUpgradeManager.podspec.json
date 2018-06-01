@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PgyerUpgradeManager/Classes/**/*"
+  "source_files": "PgyerUpgradeManager/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }
