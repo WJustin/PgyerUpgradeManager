@@ -7,7 +7,6 @@
 
 #import "JWPgyerUpgradeManager.h"
 
-#ifdef DEBUG
 #import <AFNetworking/AFNetworking.h>
 
 static NSString * const kShortcutUrl = @"http://www.pgyer.com/apiv1/app/getAppKeyByShortcut";
@@ -142,4 +141,3 @@ static NSString * kUpdateTimeKey = @"kPgyerUpdateTimeKey";
 
 @end
 
-#endif

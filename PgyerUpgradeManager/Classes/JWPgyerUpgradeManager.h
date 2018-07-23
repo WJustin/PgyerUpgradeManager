@@ -7,8 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-#ifdef DEBUG
-
 @interface JWPgyerUpgradeManager : NSObject
 
 + (instancetype)sharedManager;
@@ -18,4 +16,3 @@
 
 @end
 
-#endif
