@@ -7,6 +7,7 @@
 //
 
 #import "JWAppDelegate.h"
+#import <PgyerUpgradeManager/JWPgyerUpgradeManager.h>
 
 @implementation JWAppDelegate
 
@@ -30,6 +31,8 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    [JWPgyerUpgradeManager sharedManager].isForce = YES;
+    [[JWPgyerUpgradeManager sharedManager] fetchUpgradeInfoWithAppShortcut:@"mXdp" apiKey:@"05379138fc9a3bcd28f5401c7cc85ad5"];
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 

@@ -1,0 +1,1 @@
+../../../../../PgyerUpgradeManager/Classes/JWPgyerUpgradeManager.h

@@ -82,7 +82,6 @@ static NSString * kUpdateTimeKey = @"kPgyerUpdateTimeKey";
 }
 
 - (void)gotoInstallWithDate:(NSDate *)date updateDesc:(NSString *)updateDesc {
-    [[NSUserDefaults standardUserDefaults] setObject:date forKey:kUpdateTimeKey];
     NSString *message;
     if (updateDesc.length > 0) {
         message = [NSString stringWithFormat:@"蒲公英上有新版本, 更新内容为\n%@", updateDesc];
@@ -91,10 +90,13 @@ static NSString * kUpdateTimeKey = @"kPgyerUpdateTimeKey";
     }
     [self showWithTitle:nil
                 message:message
-      cancelButtonTitle:@"忽略"
-            cancelBlock:nil
+      cancelButtonTitle:self.isForce ? nil : @"忽略"
+            cancelBlock:^{
+                [[NSUserDefaults standardUserDefaults] setObject:date forKey:kUpdateTimeKey];
+            }
        otherButtonTitle:@"立即更新"
           otherTapBlock:^{
+              [[NSUserDefaults standardUserDefaults] setObject:date forKey:kUpdateTimeKey];
               [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:kInstallFormat, self.appKey]]];
           }];
 }

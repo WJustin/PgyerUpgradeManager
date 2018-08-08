@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF6C76F74F03DD30A35C9B5B06642FDB"
+               BlueprintIdentifier = "DD09749C3EEB47B517EEAD8EDB7B5249"
                BlueprintName = "PgyerUpgradeManager"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "PgyerUpgradeManager.framework">
+               BuildableName = "libPgyerUpgradeManager.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

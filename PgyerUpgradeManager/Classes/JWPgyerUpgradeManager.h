@@ -9,6 +9,8 @@
 
 @interface JWPgyerUpgradeManager : NSObject
 
+@property (nonatomic, assign) BOOL isForce;
+
 + (instancetype)sharedManager;
 
 - (void)fetchUpgradeInfoWithAppShortcut:(NSString *)shortcut

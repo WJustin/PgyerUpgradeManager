@@ -22,15 +22,20 @@ DEPENDENCIES:
   - Kiwi
   - PgyerUpgradeManager (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Kiwi
+
 EXTERNAL SOURCES:
   PgyerUpgradeManager:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
   PgyerUpgradeManager: 43ec9c88e7652e637b76c46e5de1eee964f72536
 
-PODFILE CHECKSUM: d630e34cc7c849d22ffab2eee6aaa56ccfec849d
+PODFILE CHECKSUM: 3d0c266c80cd869cbc1fde0ba256ff02f5a0a7e8
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

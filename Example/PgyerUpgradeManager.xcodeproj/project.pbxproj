@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42615823D298A37546D9E6CF /* Pods_PgyerUpgradeManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E06D31A95C4E7C234D095D /* Pods_PgyerUpgradeManager_Example.framework */; };
+		10BFD84D49F66BA8ED42671F /* libPods-PgyerUpgradeManager_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4414834116D4776107F3A94 /* libPods-PgyerUpgradeManager_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		89D0ECEB57D14ED810329D2F /* Pods_PgyerUpgradeManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F645553B50C330BB480E6587 /* Pods_PgyerUpgradeManager_Tests.framework */; };
+		CC5C3811F8F7AC54568A766B /* libPods-PgyerUpgradeManager_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE97E95C7AC5D6BA14131C47 /* libPods-PgyerUpgradeManager_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,15 +57,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B2666D6955FC0BDFC61E16B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B2666D6955FC0BDFC61E16B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DAB3B32CA26B18B78D9FB89 /* Pods-PgyerUpgradeManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PgyerUpgradeManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PgyerUpgradeManager_Tests/Pods-PgyerUpgradeManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B8E06D31A95C4E7C234D095D /* Pods_PgyerUpgradeManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PgyerUpgradeManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAD876E5212F7E2A30F62E82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CAD876E5212F7E2A30F62E82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D4414834116D4776107F3A94 /* libPods-PgyerUpgradeManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PgyerUpgradeManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEB024AAD0691885701A006 /* Pods-PgyerUpgradeManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PgyerUpgradeManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PgyerUpgradeManager_Example/Pods-PgyerUpgradeManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DBBD4F61EAF13BD47E1A282F /* Pods-PgyerUpgradeManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PgyerUpgradeManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PgyerUpgradeManager_Example/Pods-PgyerUpgradeManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E16F5B7410AFB3B2DCE90A95 /* PgyerUpgradeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PgyerUpgradeManager.podspec; path = ../PgyerUpgradeManager.podspec; sourceTree = "<group>"; };
-		F645553B50C330BB480E6587 /* Pods_PgyerUpgradeManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PgyerUpgradeManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16F5B7410AFB3B2DCE90A95 /* PgyerUpgradeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PgyerUpgradeManager.podspec; path = ../PgyerUpgradeManager.podspec; sourceTree = "<group>"; };
+		EE97E95C7AC5D6BA14131C47 /* libPods-PgyerUpgradeManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PgyerUpgradeManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB865C6F5E5B41D3A9765DF8 /* Pods-PgyerUpgradeManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PgyerUpgradeManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PgyerUpgradeManager_Tests/Pods-PgyerUpgradeManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				42615823D298A37546D9E6CF /* Pods_PgyerUpgradeManager_Example.framework in Frameworks */,
+				CC5C3811F8F7AC54568A766B /* libPods-PgyerUpgradeManager_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				89D0ECEB57D14ED810329D2F /* Pods_PgyerUpgradeManager_Tests.framework in Frameworks */,
+				10BFD84D49F66BA8ED42671F /* libPods-PgyerUpgradeManager_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B8E06D31A95C4E7C234D095D /* Pods_PgyerUpgradeManager_Example.framework */,
-				F645553B50C330BB480E6587 /* Pods_PgyerUpgradeManager_Tests.framework */,
+				EE97E95C7AC5D6BA14131C47 /* libPods-PgyerUpgradeManager_Example.a */,
+				D4414834116D4776107F3A94 /* libPods-PgyerUpgradeManager_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,8 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				48844554484D77DFDBC12AD6 /* [CP] Embed Pods Frameworks */,
-				95934D9819304298CDE2F8AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +225,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				04B947E1BD9EF3D4DB4634DB /* [CP] Embed Pods Frameworks */,
-				BEB3457BA8EE19E1CA30F3E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Justin.wang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = VNF7UTGW24;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -297,74 +296,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04B947E1BD9EF3D4DB4634DB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PgyerUpgradeManager_Tests/Pods-PgyerUpgradeManager_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kiwi/Kiwi.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kiwi.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PgyerUpgradeManager_Tests/Pods-PgyerUpgradeManager_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		48844554484D77DFDBC12AD6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PgyerUpgradeManager_Example/Pods-PgyerUpgradeManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/PgyerUpgradeManager/PgyerUpgradeManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PgyerUpgradeManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PgyerUpgradeManager_Example/Pods-PgyerUpgradeManager_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95934D9819304298CDE2F8AD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PgyerUpgradeManager_Example/Pods-PgyerUpgradeManager_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BEB3457BA8EE19E1CA30F3E6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PgyerUpgradeManager_Tests/Pods-PgyerUpgradeManager_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C98EBEDE8EA825D8A92953B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -538,6 +469,7 @@
 			baseConfigurationReference = DBBD4F61EAF13BD47E1A282F /* Pods-PgyerUpgradeManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VNF7UTGW24;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PgyerUpgradeManager/PgyerUpgradeManager-Prefix.pch";
 				INFOPLIST_FILE = "PgyerUpgradeManager/PgyerUpgradeManager-Info.plist";
@@ -553,6 +485,7 @@
 			baseConfigurationReference = DAEB024AAD0691885701A006 /* Pods-PgyerUpgradeManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VNF7UTGW24;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PgyerUpgradeManager/PgyerUpgradeManager-Prefix.pch";
 				INFOPLIST_FILE = "PgyerUpgradeManager/PgyerUpgradeManager-Info.plist";
